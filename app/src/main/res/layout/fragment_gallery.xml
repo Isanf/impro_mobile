@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List des ventes"
+            android:textColor="@color/noir"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            />
+        <TableLayout
+            android:id="@+id/tvente"
+            android:layout_below="@id/tvete"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TableLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_vente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="@color/rouge"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/ic_add_black_24dp"
+            android:layout_alignParentEnd="true"
+            tools:ignore="VectorDrawableCompat" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

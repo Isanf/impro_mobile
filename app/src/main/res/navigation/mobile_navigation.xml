@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.supernettechnologie.impromobile.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_vente"
+        android:name="com.supernettechnologie.impromobile.ui.gallery.GalleryFragment"
+        android:label="@string/menu_vente"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_commande"
+        android:name="com.supernettechnologie.impromobile.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_commande"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_imm"
+        android:name="com.supernettechnologie.impromobile.ui.imma.ImmaFragment"
+        android:label="@string/menu_immatriculation"
+        tools:layout="@layout/imma_fragment" />
+    <fragment
+        android:id="@+id/nav_users"
+        android:name="com.supernettechnologie.impromobile.ui.user.UserFragment"
+        android:label="@string/menu_users"
+        tools:layout="@layout/user_fragment" />
+</navigation>

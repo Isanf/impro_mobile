@@ -1,0 +1,2 @@
+rootProject.name='Impro Mobile'
+include ':app'

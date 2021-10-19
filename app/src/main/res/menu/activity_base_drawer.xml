@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_vente"
+            android:icon="@drawable/ic_local_grocery_store_black_24dp"
+            android:title="@string/menu_vente" />
+
+        <item
+            android:id="@+id/nav_commande"
+            android:icon="@drawable/ic_transfer_within_a_station_black_24dp"
+            android:title="@string/menu_commande" />
+        <item
+            android:id="@+id/nav_imm"
+            android:icon="@drawable/ic_card_membership_black_24dp"
+            android:title="@string/menu_immatriculation" />
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="@string/menu_users" />
+    </group>
+</menu>
